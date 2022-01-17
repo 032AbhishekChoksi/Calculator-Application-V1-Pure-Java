@@ -29,7 +29,8 @@
                 android:background="@drawable/circle"
                 android:textColor="#ffffff"
                 android:textSize="24sp"
-                android:layout_margin="5dp"/>
+                android:layout_margin="5dp"
+                android:backgroundTint="#DD2C00"/>
 
             <Button
                 android:id="@+id/parenthesesBTN"
@@ -277,7 +278,8 @@
                 android:background="@drawable/circle"
                 android:textColor="#ffffff"
                 android:textSize="24sp"
-                android:layout_margin="5dp" />
+                android:layout_margin="5dp"
+                android:backgroundTint="#43A047"/>
         </TableRow>
     </TableLayout>
 
