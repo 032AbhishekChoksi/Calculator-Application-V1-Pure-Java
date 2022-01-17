@@ -301,7 +301,7 @@
 
     <EditText
         android:id="@+id/input"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:ems="10"
@@ -312,6 +312,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:textSize="36sp"
+        android:textAlignment="textEnd"
         tools:ignore="LabelFor"
         android:autofillHints="false" />
 </androidx.constraintlayout.widget.ConstraintLayout>
